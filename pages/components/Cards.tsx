@@ -37,11 +37,11 @@ const CourseTextInformation = () => {
 const Cards = () => {
     return (
         <section className="text-gray-400 bg-main-900 body-font">
-            <div className="container px-5 py-10 mx-auto">
-                <div className="flex flex-wrap">
+            <div className="px-5 py-10 mx-auto">
+                <div className="flex justify-center">
                     <div className="lg:px-10">
                         <div className="flex relative hover:cursor-pointer">
-                            <Image width={350} alt="gallery" className="absolute inset-0 w-full h-full object-cover" src={tailwind} />
+                            <Image width={350} alt="gallery" className="absolute inset-0 w-full h-full" src={tailwind} />
                         </div>
                         <CourseTextInformation />
                     </div>
@@ -58,9 +58,9 @@ const Cards = () => {
                         <CourseTextInformation />
                     </div>
                 </div>
-                <div className="flex flex-wrap py-10">
+                <div className="flex justify-center py-10">
                     <div className="lg:px-10">
-                        <div className="flex relative hover:cursor-pointer">
+                        <div className="flex  relative hover:cursor-pointer">
                             <Image width={350} alt="gallery" className="absolute inset-0 w-full h-full object-cover" src={tailwind} />
                         </div>
                         <CourseTextInformation />
@@ -79,7 +79,7 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-start ml-16 flex-wrap sm:flex-no-wrap md:flex-wrap lg:flex-no-wrap xl:flex-wrap">
+            <div className="flex justify-start ml-16 sm:flex-wrap sm:flex-no-wrap md:flex-wrap lg:flex-no-wrap xl:flex-wrap">
                 <button className="inline-flex hover:cursor-pointer lg:mr-16 items-center bg-gray-400 border-pink-700 py-1 px-5 focus:outline-none hover:bg-gray-700 rounded text-white mt-4 md:mt-0">
                     View Kits and Bundles&nbsp; <Image src={rightArrow} />
                 </button>
