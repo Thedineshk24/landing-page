@@ -7,15 +7,6 @@ import ErrorBoundary from './ErrorBoundry/MyErrorBoundry';
 import HomePage from './HomePage';
 
 const Home: NextPage = () => {
-  const [hasMounted, setHasMounted] = useState(false);
-
-  useEffect(() => {
-    setHasMounted(true);
-  }, []);
-
-  if (!hasMounted) {
-    return null;
-  }
 
   return (
     <>
