@@ -12,7 +12,7 @@ const Tools = () => {
                     Be part of the
                     <br /> <span className="text-red-500">Creators</span> community and add educational value
                 </h1>
-                <div className="container ml-16 mr-16 mx-auto bg-card-900 flex px-5 py-8 md:flex-row flex-col items-center">
+                <div className="container mx-auto bg-card-900 flex px-5 py-8 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
                         <div className="ml-16 mt-0 text-gray-400 text-sm">
                             ANALYTICS
