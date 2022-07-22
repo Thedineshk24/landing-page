@@ -1,23 +1,20 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Cards from './components/Cards';
-import Hero from './components/Hero';
+import Footer from './components/Footer';
 import Navigation from './components/Navigation'
-import Tools from './components/Tools';
-import WhyUs from './components/WhyUs';
+import ErrorBoundary from './ErrorBoundry/MyErrorBoundry';
+import HomePage from './HomePage';
 
 const Home: NextPage = () => {
   <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   </Head>
   return (
-    <>
+    <ErrorBoundary>
       <Navigation />
-      <Hero />
-      <WhyUs />
-      <Cards />
-      <Tools />
-    </>
+      <HomePage />
+      <Footer />
+    </ErrorBoundary>
   )
 }
 

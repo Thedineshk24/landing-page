@@ -8,7 +8,7 @@ import Image from "next/image";
 const WhyUs = () => {
   return (
     <section className="text-gray-400 bg-main-900 body-font">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="ml-6 mr-6 py-10 mx-auto">
         <div className="flex text-left ml-16 w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             <Image src={degree} /> <br />
